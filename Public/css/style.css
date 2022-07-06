@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+}
+
+.vie {
+    background-color: lightgray;
+    width: 10vw;
+    height: 50px;
+    border: solid black 2px;
+    border-radius: 10px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.vie > p {
+    margin: 0 auto;
+}
+
+.PV {
+    background-color: black;
+    color: black;
+    border-radius: 15px;
+    width: 75%;
+    border: black solid 1px;
+    height: 6px;
+    margin: 0 auto;
+}
+
+#opp,
+#vous {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.gameBoy {
+    background-image: url(../img/gameBoy-r.png);
+    background-size: cover;
+    height: 120vh;
+    width: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.combat {
+    background-image: url('../img/battle_background.png');
+    background-size: cover;
+    position: absolute ;
+    top: 13%;
+    width: 20vw;
+    height: 35vh ; 
+    display: block;
+}
+
+#attaque {
+    display: flex;
+}
+.att {
+    width: 25%;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border: solid black 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
+.poke {
+    width: 100px;
+    height: 100px;
+}
+
+.poke2 {
+    width: 75px;
+    height: 75px;
+}
+
+.txt {
+    background-color: rgb(235, 235, 235);
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+}
+
+#gauche,
+#droite {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    top : 67%;
+}
+
+#gauche {
+    left: 22%;
+}
+#droite {
+    left: 33%;
+}
+
+#A,
+#B {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 50%;
+}
+
+#A {
+    top: 64%;
+    right: 21%;
+}
+#B {
+    top: 67%;
+    right: 34%;
+}
+
+.victoire,
+.defaite {
+    background-color: black;
+    width: 20vw;
+    height: 35vh ;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    display: none;
+}
+
+.victoire > img,
+.defaite > img {
+    width: 200px;
+}
+

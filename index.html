@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./Public/css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gameBoy">
+        <div class="combat">
+            <div id="opp">
+                <div class="vie ennemi">
+                    <p><i>Togekiss </i><br><i>  pv</i></p>
+                    <progress class="PV Toge" max="100" value="100"></progress>
+                </div>
+                <img class='poke2' src="./Public/img/Sprite_468_NB.png" alt="Pokémon opposant">
+            </div>
+            <div id="vous">
+                <img src="./Public/img/Sprite_094_dos_NB.png" class='poke' alt="votre Pokémon">
+                <div class="vie nous">
+                    <p><i>Ectoplasma </i><br><i> pv</i></p>
+                    <progress class="PV Ecto" max="100" value="100"></progress>
+                </div>
+            </div>
+            <div class="txt" id="comb"><p>Un Togekiss sauvage apparaît</p></div>
+            <div id="attaque">
+                <div class="att hyp"><a>Hypnose</a><br><a>14/15 pp</a></div>
+                <div class="att cau"><a>Cauchemard</a><br><a>9/10 pp</a></div>
+                <div class="att vib"><a>Vibrobscur</a><br><a>15/15 pp</a></div>
+                <div class="att choc"><a>Choc Venin</a><br><a>27/30 pp</a></div>
+            </div>
+        </div>
+
+        <div class="victoire">
+            <img src="./Public/img/Sprite_094_Déguisé_Sh.png" alt="ecto victoire" >
+            <div class="txt"><p>Victoire !!</p></div>
+        </div>
+
+        <div class="defaite">
+            <img src="./Public/img/Sprite_468_Sh.png" alt="Toge defaite" >
+            
+            <div class="txt"><p>Défaite !!</p></div>
+        </div>
+
+
+        <button id="gauche">
+            <p><</p>
+        </button>
+        <button id="droite">
+            <p>></p>
+        </button>
+        <button id="A">
+            <p>A</p>
+        </button>
+        <button id="B">
+            <p>B</p>
+        </button>
+
+    </div>
+    <audio
+        controls autoplay loop
+        src="./Public/img/[YT2mp3.info] - Pokemon Red, Yellow, Blue Battle Music- Trainer (320kbps).mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+
+    <script type="module" src="./Public/js/main.js"></script>
+
+
+</body>
+
+</html>
